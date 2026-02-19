@@ -356,7 +356,7 @@ export default function LoomMap() {
     const checkUrl = `${INITIAL_URL}${URL_IDENTIFAIRE}`;
     //console.log('checkUrl==========+>', checkUrl);
 
-    const targetData = new Date('2026-02-20T08:08:00'); //дата з якої поч працювати webView
+    const targetData = new Date('2026-02-21T08:08:00'); //дата з якої поч працювати webView
     const currentData = new Date(); //текущая дата
 
     if (currentData <= targetData) {
